@@ -31,7 +31,7 @@ An enterprise-grade Banking Management System built with **FastAPI**, **Oracle D
 
 ## 🛠️ Tech Stack
 - **Framework**: FastAPI
-- **Database**: Oracle 21c (Thin mode via `python-oracledb`)
+- **Database**: postgresql
 - **ORM**: SQLAlchemy
 - **Security**: jose (JWT), Passlib (Bcrypt), SlowAPI (Rate Limiting)
 - **Task Scheduling**: APScheduler
