@@ -1,6 +1,6 @@
 # Enterprise Banking Management System
 
-An enterprise-grade Banking Management System built with **FastAPI**, **Oracle Database 21c**, and **SQLAlchemy ORM**. This project demonstrates scalable backend architecture, robust security practices, and real-world financial transaction management.
+An enterprise-grade Banking Management System built with **FastAPI**, Postgresql, and **SQLAlchemy ORM**. This project demonstrates scalable backend architecture, robust security practices, and real-world financial transaction management.
 
 ## 🚀 Key Features
 
