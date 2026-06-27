@@ -82,6 +82,28 @@ SECRET_KEY=generate_random_string
 ```bash
 uvicorn main:app --reload
 ```
+Running the Microservices Setup
+If you want to test the microservices setup we structured:
+
+Open 3 separate terminals in VS Code (click the + button in the terminal panel).
+Activate the .venv in each terminal:
+powershell
+.\.venv\Scripts\Activate.ps1
+
+Run each component:
+
+Terminal 1 (Auth Service):
+powershell
+python services/auth_service/main.py
+
+Terminal 2 (Banking Service):
+powershell
+python services/banking_service/main.py
+
+Terminal 3 (API Gateway):
+powershell
+python services/gateway/main.py
+You can now test all microservices unified under the Gateway address: http://localhost:8000/docs.
 
 ## 🧪 Testing
 Run the comprehensive test suite:
