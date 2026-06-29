@@ -112,4 +112,4 @@ pytest
 ```
 
 ## 📈 Portfolio Summary
-This system follows a professional **Layered Architecture**, separating concerns between the presentation (API), logic (Service), and data (Repository) layers. It showcases clean code principles, robust error handling, and sophisticated database designs suitable for modern fintech applications.
+This system follows a professional **Layered Architecture**, separating concerns between the presentation (API), logic (Service), and data (Repository) layers. It showcases clean code principles, robust error handling, and sophisticated database designs suitable for modern fintech applications. 
